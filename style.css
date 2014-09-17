@@ -17,6 +17,11 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+body {
+	background-color:blue;
+}
+
+
 .entry-title {
 	color:#900;
 }
