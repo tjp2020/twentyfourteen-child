@@ -16,12 +16,27 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+/*1.0: Universal margin, padding resets;
+/*2.0: Page Layout;
 
-body {
-	background-color:blue;
+
+/* 1.0 margin, padding reset on page elements */
+
+body, h1, h2, h3, h4, h5, ul#sidebar, ul.wigits, li, ul#sidebar li ul, ol.commentlist, ul.children, ul#footercol li ul,
+div#submenu-nav ul, div #submenu-nav ol, form, img, table
+{
+	margin:0;
+	padding:0;
+	border:0;
 }
 
+/* 2.0 Page Layout */
 
-.entry-title {
-	color:#900;
-}
+.left { float;left; }
+.right { float:right; }
+.center { text-align:center; }
+.aligncenter, div.aligncenter {display: block; margin-left: auto; margin-right:auto;}
+
+
+div#site { width: 100%; }
+
